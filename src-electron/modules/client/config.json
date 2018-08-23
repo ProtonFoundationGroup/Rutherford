@@ -1,0 +1,24 @@
+{
+  "clients": {
+    "Proton": {
+      "version": "0.0.1",
+      "platforms": {
+        "mac": {
+          "download": {
+            "url": "http://res.imwallet.com/chain/proton-darwin-0_0_1.tar.gz",
+            "md5": "4a2f4c33b737c8793a5b3475927c9dc9",
+            "type": "tar",
+            "bin": "proton-darwin-0_0_1/proton"
+          },
+          "bin": "proton",
+          "commands": {
+            "sanity": {
+              "args": ["version"],
+              "output": ["Proton", "0.0.1"]
+            }
+          }
+        }
+      }
+    }
+  }
+}
