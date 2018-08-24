@@ -1,5 +1,5 @@
 <template>
- <div class="trans-container" @click="viewTransaction(item)">
+ <div class="trans-container q-item-link" @click="viewTransaction(item)">
    <div>{{date(item.timestamp)}}</div>
    <div>
      <span v-if="item.to != null && item.input === '0x'" >{{ $t('tx.type.a2a') }}</span>
@@ -78,29 +78,26 @@
 </template>
 <style lang="stylus">
 div.trans-container
-    // height 60px
-    font-size 16px
+    font-size 15px
     line-height 40px
-    color #333333
-    border-radius 2px !important
     vertical-align middle
     display table
     width 100%
+    padding-left 16px
 div.trans-container div
     display table-cell
     line-height 60px
     text-align left
 div.trans-container div:nth-child(1)
-    width 14%
+    width 13%
 div.trans-container div:nth-child(2)
-    width 14%
+    width 13.5%
 div.trans-container div:nth-child(3)
-  width 44%
+  width 42%
 div.trans-container div:nth-child(4)
-  width 14%
+  width 11%
 div.trans-container div:nth-child(5)
   color red
-  width 14%
 div.transaction img.q-item-avatar
   width 24px
   height 24px
