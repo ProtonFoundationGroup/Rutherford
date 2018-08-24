@@ -89,13 +89,13 @@ div.trans-container div
     line-height 60px
     text-align left
 div.trans-container div:nth-child(1)
-    width 13%
+    width 12%
 div.trans-container div:nth-child(2)
-    width 13.5%
+    width 18%
 div.trans-container div:nth-child(3)
-  width 42%
+  width 39%
 div.trans-container div:nth-child(4)
-  width 11%
+  width 13%
 div.trans-container div:nth-child(5)
   color red
 div.transaction img.q-item-avatar

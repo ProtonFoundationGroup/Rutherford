@@ -1,6 +1,6 @@
 <template>
   <q-layout view="LHh Lpr LFf">
-    <q-layout-header style="-webkit-app-region: drag">
+    <q-layout-header style="-webkit-app-region: drag;margin-left: 21%;">
       <q-toolbar :glossy="$q.theme === 'mat'"
                  :inverted="$q.theme === 'ios'">
 
@@ -20,7 +20,7 @@
     </q-layout-header>
 
     <q-layout-drawer v-model="leftDrawerOpen"
-                     :content-class="$q.theme === 'mat' ? 'bg-grey-2 shadow-5' : null">
+                     :content-class="$q.theme === 'mat' ? 'bg-grey-2 shadow-5' : null" :content-style="{width:'21%'}">
       <div class="bg-white">
         <div class="row flex-center q-my-sm">
           <img alt="Rutherford logo"
