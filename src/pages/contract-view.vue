@@ -84,7 +84,7 @@
         >
           <template slot="top-left" slot-scope="props">
             <q-input :placeholder="$t('contract.view.from_block')" v-model="fromBlock" class="q-mr-md"></q-input>
-            <q-btn :disable="loading" class="contract-btn" :label="$t('contract.view.btn_query')" @click="getPastEvents"></q-btn>
+            <q-btn :disable="loading" class="contract-btn" :label="$t('contract.view.btn_query')" color="secondary" @click="getPastEvents"></q-btn>
           </template>
         </q-table>
 
@@ -95,7 +95,7 @@
           color="secondary"
         >
           <template slot="top-left" slot-scope="props">
-            <q-btn :loading="watching" class="contract-btn" :label="$t('contract.view.btn_watch')"  @click="watchEvents"></q-btn>
+            <q-btn :loading="watching" class="contract-btn" :label="$t('contract.view.btn_watch')" color="secondary"  @click="watchEvents"></q-btn>
           </template>
         </q-table>
 
@@ -485,7 +485,6 @@ export default {
   },
 
   created () {
-    // console.log('id: ', this.$route.query.id)
     this.$store.commit('ui/update', {
       breadcrumbs: [
         { key: 'nav.contract.my.label', to: '/contract/my' },
