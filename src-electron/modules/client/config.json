@@ -17,6 +17,21 @@
               "output": ["Proton", "0.0.1"]
             }
           }
+        },
+        "win": {
+          "download": {
+            "url": "http://res.imwallet.com/chain/proton-win-0_0_1.zip",
+            "md5": "c32ac978e5c30c8c6fb058723ff1e52e",
+            "type": "zip",
+            "bin": "proton-win-0_0_1\\proton.exe"
+          },
+          "bin": "proton.exe",
+          "commands": {
+            "sanity": {
+              "args": ["version"],
+              "output": ["Proton", "0.0.1"]
+            }
+          }
         }
       }
     }
