@@ -6,7 +6,7 @@ import fs from 'fs-extra'
 import packageJson from '../../package.json'
 
 const _defaults = {
-  network: process.env.PROD ? 'test' : 'test',
+  network: process.env.PROD ? 'main' : 'test',
   syncmode: 'fast',
   nodeType: 'proton',
   ipcFile: 'proton.ipc',
