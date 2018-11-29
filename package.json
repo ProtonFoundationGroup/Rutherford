@@ -1,11 +1,11 @@
 {
   "name": "rutherford",
   "version": "0.1.0",
-  "description": "Rutherford powered by ProtonFundation.io",
+  "description": "Rutherford powered by ProtonFoundation.io",
   "productName": "Rutherford",
-  "copyright": "Copyright @ 2018 ProtonFundation.io",
-  "cordovaId": "io.protonfundation.rutherford",
-  "author": "ProtonFundation.io",
+  "copyright": "Copyright @ 2018 ProtonFoundation.io",
+  "cordovaId": "io.protonfoundation.rutherford",
+  "author": "ProtonFoundation.io",
   "private": true,
   "scripts": {
     "dev": "quasar dev -m electron -t ios",

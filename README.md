@@ -22,7 +22,7 @@ $ npm install -g quasar-cli
 
 Then, we checkout the source code of Rutherford from github.
 ```bash
-git clone https://github.com/ProtonFundation/Rutherford.git
+git clone https://github.com/ProtonFoundation/Rutherford.git
 ```
 
 ### Run Rutherford

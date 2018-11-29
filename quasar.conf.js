@@ -88,7 +88,7 @@ module.exports = function (ctx) {
 
       // electron-builder options
       builder: {
-        appId: 'io.protonfundation.rutherford',
+        appId: 'io.protonfoundation.rutherford',
         mac: {
           category: 'public.app-category.productivity',
           icon: 'src-electron/icons/icon.icns',
