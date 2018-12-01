@@ -1,7 +1,5 @@
 # Rutherford
-__The Proton BlockChain's entry__
-
-__PC Wallet__
+__The Proton BlockChain's entry (PC Wallet)__
 
 # Development
 
